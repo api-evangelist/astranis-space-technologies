@@ -1,23 +1,81 @@
 aid: astranis-space-technologies
+
 name: Astranis Space Technologies
-description: 'Astranis Space Technologies is a company surfaced via the API Evangelist harvest backlog
-  (source: secondary-market) and added to the network as a stub for full-pipeline profiling.'
+
+image: https://cdn.prod.website-files.com/66d8f757eb129d1a1706d930/6aac39a911a91b7344d534a0_astranis-og.avif
+
+description: Astranis Space Technologies designs, builds, and operates advanced geostationary (GEO) communications satellites, providing high‑orbit
+  connectivity for commercial, government, and defense customers worldwide. The company offers micro‑GEO satellite platforms, resilient broadband
+  services, and specialized solutions for GPS resiliency and secure communications. Headquartered in California, Astranis serves global markets
+  with a focus on innovative space infrastructure and satellite‑as‑a‑service offerings.
+
 url: https://raw.githubusercontent.com/api-evangelist/astranis-space-technologies/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:secondary-market
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-09-26 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-09-26'
+
 modified: '2026-09-26'
+
 tags:
 - Company
-apis: []
+- Satellite
+- Communications
+- GEO
+- Space
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Blog
+  url: https://www.astranis.com/blog/apco-7923d
+- type: Hosts
+  url: hosts/astranis-space-technologies-hosts.yml
+- type: Vendors
+  url: vendors/astranis-space-technologies-vendors.yml
+- type: Newsroom
+  url: https://www.astranis.com/newsroom
+- type: DomainSecurity
+  url: security/astranis-space-technologies-domain-security.yml
 - type: Website
-  url: https://augment.market/c/astranis-space-technologies
+  url: https://www.astranis.com
+- type: Support
+  url: https://www.astranis.com/contact
+- type: Support
+  url: https://www.astranis.com/contact
+- type: GitHubOrganization
+  url: https://github.com/astranis
+- type: TermsOfService
+  url: https://www.astranis.com/legal/tos
+- type: PrivacyPolicy
+  url: https://www.astranis.com/legal/privacy
+- type: Postman
+  url: https://www.postman.com/astranis/workspace
+
+apis: []
+
+x-coverage:
+  state: unreadable
+  reason: js-rendered-docs
+  detail: Documentation pages are rendered via Webflow JavaScript and provide no machine‑readable spec.
+  evidence:
+  - url: https://www.astranis.com/docs
+    status: 404
+  checked: 2026-09-26
+x-enrichment:
+  date: '2026-09-26'
+  status: enriched
+  artifacts_added: 5
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local
