@@ -2,6 +2,13 @@
   "repo": "astranis-space-technologies",
   "feeds": [
     {
+      "source": "https://www.astranis.com/blog/apco-7923d",
+      "feed_url": "https://www.astranis.com/blog/apco-7923d",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://raw.githubusercontent.com/api-evangelist/astranis-space-technologies/refs/heads/main/apis.yml",
       "feed_url": "https://raw.githubusercontent.com/api-evangelist/astranis-space-technologies/refs/heads/main/apis.yml",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
